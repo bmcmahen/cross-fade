@@ -51,7 +51,7 @@ CrossFade.prototype.transition = function(deg){
  */
 
 CrossFade.prototype.setHeight = function(h){
-  this.ctx.canvas.height = this.height = h;
+  this.ctx.canvas.height = this.h = h;
   this.transition(this.opacity);
   return this;
 };
@@ -63,7 +63,7 @@ CrossFade.prototype.setHeight = function(h){
  */
 
 CrossFade.prototype.setWidth = function(w){
-  this.ctx.canvas.width = this.width = w;
+  this.ctx.canvas.width = this.w = w;
   this.transition(this.opacity);
   return this;
 };
